@@ -1,0 +1,14 @@
+/*---- CSS Demo ----*/
+body{
+background-color: blue;
+}
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
