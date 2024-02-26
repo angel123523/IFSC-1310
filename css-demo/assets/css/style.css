@@ -84,3 +84,11 @@ header.primary nav a{
 header.primary nav a:hover{
   background-color:rgba(0,0,0,.8);
 }
+
+@media screen and (max-width:600px) {
+
+  header.primary ul {
+   
+    flex-direction: column
+  }
+}
