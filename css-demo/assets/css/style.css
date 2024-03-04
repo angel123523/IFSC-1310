@@ -10,7 +10,20 @@ html {
 *:after {
   box-sizing: inherit;
 }
+/*----------------responsive images------------------*/
 
+img{ 
+  box-sizing: inherit;
+}
+
+
+/*----------------utitlity classes------------------*/
+
+.container{
+  max-width: 900px;
+  width: 80vw;
+  margin:40px auto;
+ }
 
 /*  --------------- Global Styles -----------------  */
 
@@ -84,11 +97,70 @@ header.primary nav a{
 header.primary nav a:hover{
   background-color:rgba(0,0,0,.8);
 }
+#content{
+  line-height: 1.5;
+}
+
+#content h2{
+  color: #07e1f5;
+  border-bottom:2px dotted #c0c0c0
+}
+
+#content h3{
+border: 7.5px dotted #07e1f5; 
+padding: 7.59x;
+
+}
+#blog{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
+}
+#blog .post{ 
+  box-shadow: 0 8px 16px rgba(0,0,0,6);
+  padding: 10px;
+  border-radius: 4px;
+  font-size:.8rem;
+  transition: .5s;
+}
+#blog figure{
+margin:0;
+}
+#blog figcaption{
+  text-transform: uppercase;
+  font-size: .6rem;
+  text-align: center;
+  color: #c0c0c0;
+}
+#blog header{
+  padding-top: 10px;
+  font-size: .6rem;
+}
+
+#blog header h2{
+  margin: 0;
+}
+#blog h2 a{ 
+  color: #07e1f5;
+}
+#blog .post:hover{ 
+  box-shadow: 0 8px 16px rgba(0,0,0,6);
+
+}
+
+
 
 @media screen and (max-width:600px) {
 
   header.primary ul {
    
-    flex-direction: column
+    flex-direction: column;
+    gap: 109x;
+    max-width:250px;
+    margin:auto;
+  }
+  header.primary nav a{
+    display:block;
   }
 }
