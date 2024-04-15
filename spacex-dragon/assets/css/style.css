@@ -136,7 +136,7 @@ section#content {
   padding: 4em 0;
 }
 section#content h2 {
- font-family: sans-serif; cursive
+ font-family: sans-serif, cursive;
  font-size: 2.2em;
   color: #33536b;
   text-align: center;
