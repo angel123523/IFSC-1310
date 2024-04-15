@@ -55,21 +55,17 @@ margin:0;
 header.primary {
    background: url("https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihbRytoCjpm3BNsxTOx4HH1sJcx6ta2KxOwLT3rT9egdiIldnxfwZLW-ypd_0sUlEJQfvmJn4fSX9rcfAbLViqQKZucLClz-eepyzicqJ89he1rxHM1tNAX1tpI8Y8iK=w728-h909-v0");
    background-size:cover;
-   position:relative;
+   position:center;
 background-color: #3b638b;
 color:#ffffff; 
 text-align:center;  
 text-shadow:2px 2px #000000;
-/*long form*/
 padding-top: 40px;
 padding-right: 40px;
 padding-bottom: 40px;
 padding-left: 40px;  
-/*Single value short hand*/  
 padding:40px;  
-/* T,R,B,L */
 padding: 20px 40px 20px 40px;  
-/* Two Value Top/Bottom / L/R */
 padding: 20px 40px;  
 }
 
