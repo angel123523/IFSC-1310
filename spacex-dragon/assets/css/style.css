@@ -43,7 +43,7 @@ margin:0;
   width: 750px;
   height: 140px;
   background-image: url("https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihaP6uIvn-_prpIzfsgOApEdDXbszBqtynK7VmKV6rzhQkgXgrQWMPBh11TEJmtX81ealots77dSlVoKUY4UAl5wRSat6gfPKxpVpwiOWfqDkvMbtWPdyXR0NZDi8eP8Gw=w958-h909-v0");
-  margin:  0auto;
+  margin:  0 auto;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -55,7 +55,7 @@ margin:0;
 header.primary {
    background: url("https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihbRytoCjpm3BNsxTOx4HH1sJcx6ta2KxOwLT3rT9egdiIldnxfwZLW-ypd_0sUlEJQfvmJn4fSX9rcfAbLViqQKZucLClz-eepyzicqJ89he1rxHM1tNAX1tpI8Y8iK=w728-h909-v0");
    background-size:cover;
-   position:absolute;
+   position:relative;
 background-color: #3b638b;
 color:#ffffff; 
 text-align:center;  
