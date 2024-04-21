@@ -57,7 +57,7 @@ margin:0;
 header.primary {
    background: url(https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihZfgwtEBdTlwihwGyVLhG-dP_XZ_lUMG62XclKY3wYnIzKzSmFRTuFbg3wEaxj2ZzcuLwXi2Gzyo6WNpW3BMjjLqV6Rp2cVdLdbPXBrKPYB6l2fU23P9G3S19XxCUG5oQ=w958-h909-v0);
    background-size:cover;
-   position:absolute;
+   position:relative;
 background-color: #3b638b;
 color:#ffffff; 
 text-align:center;  
@@ -168,13 +168,12 @@ section#articles h2{
   display: block;
 }
 #articles article.content{ 
-  width:40;
-  height:10;
+  width:40%;
   padding: 10px;
   transition: 0.6s;
   font-size: 1em;
   background: #fff;
-   border-radius: 25px; 
+   border-radius: 10px; 
   
 }
 #articles article.content p{
