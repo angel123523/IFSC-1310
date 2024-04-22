@@ -4,19 +4,21 @@ html
 /*  ---------------Box Sizing-----------------  */
 
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
 /*  --------------- Global Styles -----------------  */
 /*----Utility styles----*/
 .container {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1000px;
+  width: 80vw;
+  margin: 40px auto; 
+  max-width: 900px;
 }
 body{
  font-family: sans-serif;
@@ -24,11 +26,12 @@ body{
   font-style: normal;
 margin:0; 
 }
-/*---responisve img------*/
+/*---responsive img------*/
 img{
   max-width: 100%;
   height:auto;
-  
+  overflow-clip-margin: content-box;
+  overflow:clip;
 }
 body{
   font-family: sans-serif;
@@ -42,55 +45,59 @@ margin:0;
   background-image: url("https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihaP6uIvn-_prpIzfsgOApEdDXbszBqtynK7VmKV6rzhQkgXgrQWMPBh11TEJmtX81ealots77dSlVoKUY4UAl5wRSat6gfPKxpVpwiOWfqDkvMbtWPdyXR0NZDi8eP8Gw=w958-h909-v0");
   margin:  0 auto;
   text-indent: 100%;
+  white-space: nowrap;
   overflow: hidden;
   display: block;
+  position:center;
   background-repeat: no-repeat;
-  position:relative;
-}
-.dragon{
+  }
+ .dragon{
   display:flex;
   align-items:center;
   justify-content:center ;
   height:140px;  
 }
-
 header.primary {
-   background: url(https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihZfgwtEBdTlwihwGyVLhG-dP_XZ_lUMG62XclKY3wYnIzKzSmFRTuFbg3wEaxj2ZzcuLwXi2Gzyo6WNpW3BMjjLqV6Rp2cVdLdbPXBrKPYB6l2fU23P9G3S19XxCUG5oQ=w958-h909-v0);
+   background: url(https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihazYN11qEs1klF0jTL9dMwUMHzNQL-Fr8WuWpWjUkQ6MpQrKKy65BmUFTiujpNpUDwtOB5qmNP_GBXJQ444OtgIbw6aPEFMKdemEAKZU4qnMo0jrh6kCOA-imb0Ob4K9A=w958-h909-v0);
    background-size:cover;
-   position:relative;
+   position:center;
 background-color: #3b638b;
 color:#ffffff; 
 text-align:center;  
 text-shadow:2px 2px #000000;
+  
 /* T,R,B,L */
-padding: 30px 40px 30px 40px;  
+padding: 20px 40px 20px 40px;  
 }
 
+header.primary h1 {
+  font-size: 2.4rem;
+  margin:20px 0 0;
+  position: relative;
+}
 header.primary h2 {
   margin:0;
-  font-size: 3rem;
-  position: absolute;
-  align-text:center;
-  justify-content:center;
+  font-size: 2.4rem;
+  position: relative;
 }
 
 header.primary nav{
-  max-width:600px;
-  margin:10px auto;
+  max-width:400px;
+  margin: 20px auto;
   position: relative;
 }
 
 header.primary ul {
-  padding:20px 0;
+  padding:30px 0;
   display:flex;
   flex-direction: row;
   justify-content:space-around;
-  position: resolute;
+  position: relative;
 }
 
 header.primary nav li{
   list-style-type:none;
-  padding:10px;
+  padding:0;
   width:20%;
   position: relative;
 }
@@ -99,90 +106,109 @@ header.primary nav a:link,
 header.primary nav a:visited {
   color:white;
   text-decoration:none;
-  background-color:#33536b;
-  padding:10px 18px;
+  background-color:#000000;
+  background-color:rgba(142,166,184,0.4);
+  padding:8px 16px;
   border-radius: 10px;
   display:block;
   transition:0.6s;
   position: relative;
   
 }
-/*----content-----*/
-section.container h2{
-  display:flex;
-  font-size: 2rem;
-  position:relative;
-  align-text:center;
-  justify-content:center;
-  color:#33536b;
+
+header.primary nav a:hover,
+header.primary nav a:active{
+  background-color:rgba(51,83,107,.8);
+  
 }
-Section.container p{
- margin:0px;
-  font-size: 1rem;
-  position: absolute;
-  align-text:center;
-  justify-content:left;
-  padding:10px;
+/*------Content----*/
+section#content {
+  padding: 4em 0;
 }
-/*----articles----*/
-section#articles{
+section#content h2 {
+ font-family: sans-serif; cursive
+ font-size:2.2em;
+  color: #33536b;
+  text-align: center;
+}
+/*---columns---*/
+  section#columns {
  background: url(https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihZDNc0_hKdrRNR0vgj6VWwhaRhGs7u5IySs0FJfcV5NYn6b0e30TP_uT1BeogRgz73V7TkyHTsf7CpNoyAcyeNa8WOWpSzqpbBMa34BVaWCmzkStW9hDcUb9-GVXWhK=w639-h909-v0);
-   background-size: 100vw 180vh;
+   background-size: 100vw 220vh;
 background-repeat: no-repeat;
    position:relative;
 text-align:center;  
-/* T,R,B,L */
 padding:20px 20px 20px 20px;
-  
 }
-section#articles .container {
+Section#columns .container{
   display:flex;
   flex-direction:column;
-  border-bottom: 1px solid #c0c0c0;
-  padding: 0 0 4em 0;
+  justify-content:space-between;
+  flex:wrap;
+  border: 1px solid black;
+  padding: 0 0 4em 0; 
+  background:white;
+  border-radius:25px;
 }
-section#articles .container h2{
+Section#columns .container h2{
+  flex:0 0 100%;
   margin:0;
   display:flex;
-  font-size: 2rem;
-postion:absolute;
- color:#33536b;
-  text-align: center;
-    font-size: 25px;
+  color:#33536b;
+  text-align:center;
+    font-family: sans-serif;
+  font-size:2em;
+  text-shadow: 1px 1px black;
+  text-decoration:underline;
 }
-section#articles h2{
-  color:#fff;
-  text-decoration:none;
-  position: absolute;
-  align-text:center;
-  justify-content:center;
+#columns article.info{
+   border: 1px solid black;
+  padding:10px 10px 10px 10px;
+  margin:5px;
+  border-radius:25px;
+  font-size:15px;
+  
 }
-#articles article.content img{
+#columns article.info img{
   width:250px;
   height:150px;
-  margin:10px;
-  border-radius:25px;
-  justify-content:center;
-  align-text:center;
-   margin-right: 10px;
-  display: block;
-}
-#articles article.content{ 
-  width:40%;
-  padding: 10px;
-  transition: 0.6s;
-  font-size: 1em;
-  background: #fff;
-   border-radius: 10px; 
+  border-radius:20px;
+  float:left;
+  vertical-align: top;
   
 }
-#articles article.content p{
-  margin-right:2;
+#columns article.info figcaption{
+  border: 1px;
+    text-align: center;
+  
+}
+#columns article.info p{
+  margin-right:20px;
+  font-size:1.2em;
   text-decoration:underline;
-  font-size: 1.2em;
   
 }
- /*----photo---*/
-.diagram img{
-  clear:both;
+#columns article.info figure {
+    display:inline-block;
+    margin: 20px;
 }
+#columns article.info ul{
+  font-size:1em;
+  text-align:center; 
+}
+/*---diagram----*/
+#diagram img{
+  justify-content:center;
+  border-radius:25px;
+  border: 2px solid black;
+  }
+/*---footer---*/
+#copyright h6{
+  background-color: #33536b;
+  padding:20px;
+  font-size:1em;
+  text-align:center;
+  color:white;
+  margin:0;
+}
+ 
