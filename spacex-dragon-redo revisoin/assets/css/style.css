@@ -251,10 +251,6 @@ Section#columns .container h2{
  section#table  .info table,th,td{
    border:1px solid black;
  }
- section#contact {
-  overflow:auto;
-  height:900px;
- }
 
 
  .dragon-autoplay-toggle-button,
