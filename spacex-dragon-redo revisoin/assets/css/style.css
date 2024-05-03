@@ -168,7 +168,7 @@ Section#columns .container h2{
   
 }
 #columns article.info{
-   
+   background-color: white;
   padding:10px 10px 10px 10px;
   margin:5px;
   border-radius:25px;
