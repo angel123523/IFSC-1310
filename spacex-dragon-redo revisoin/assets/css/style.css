@@ -252,8 +252,8 @@ Section#columns .container h2{
    border:1px solid black;
  }
  section#contact {
-  overflow:scroll;
-  height:100px;
+  overflow:auto;
+  height:900px;
  }
 
 
