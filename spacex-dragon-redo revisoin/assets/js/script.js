@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('.photo').slick({
+    $('.photo').dragon({
       dots: true,
       infinite: true,
       speed: 500,
@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 });
 
-$('.slidecontent').slick({
+$('.slidecontent').dragon({
     dots: true,
     infinite: true,
     speed: 500,
