@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('.fade').slick({
+    $('.photo').slick({
       dots: true,
       infinite: true,
       speed: 500,
@@ -13,3 +13,16 @@ $(document).ready(function() {
 
 
 });
+
+$('.container').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    slide: 'div',
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 2000
+  });
+
+
