@@ -253,21 +253,23 @@ Section#columns .container h2{
  }
 
 
- .dragon-autoplay-toggle-button,
- .dragon-k-prev .dragon-prev-icon, .dragon-next .dragon-next-icon,
- .dragon-dots li button .dragon-dot-icon,
- .dragon-dots li.dragon-active button .dragon-dot-icon {
+ 
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
   color: white;
 }
 
 /* Customize Previous/Next/Dots/Autoplay - Active State */
 
-.dragon-next:focus .dragon-next-icon,
-.dragon-next:focus .dragon-prev-icon,
-.dragon-prev:focus .dragon-next-icon,
-.dragon-prev:focus .dragon-prev-icon,
-.dragon-dots li button:focus .dragon-dot-icon:before,
-.dragon-dots li.dragon-active button:focus .dragon-dot-icon,
-.dragon-autoplay-toggle-button:focus 
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
 {
     color:black;
+}
