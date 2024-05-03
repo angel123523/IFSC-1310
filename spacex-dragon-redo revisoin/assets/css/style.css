@@ -153,19 +153,19 @@ Section#columns .container{
   flex:wrap;
   border: 1px solid black;
   padding: 0 0 4em 0; 
-  background:white;
+ 
   border-radius:25px;
 }
 Section#columns .container h2{
   flex:0 0 100%;
   margin:0;
-  display:flex;
+  display:absolute;
   color:#33536b;
   text-align:center;
     font-family: sans-serif;
   font-size:2em;
   text-shadow: 1px 1px black;
-  text-decoration:underline;
+  
 }
 #columns article.info{
    border: 1px solid black;
@@ -191,7 +191,7 @@ Section#columns .container h2{
 #columns article.info p{
   margin-right:20px;
   font-size:1.2em;
-  text-decoration:underline;
+ 
   
 }
 #columns article.info figure {
