@@ -126,13 +126,13 @@ section#content {
   padding: 4em 0;
 }
 section#content h2 {
- font-family: sans-serif; cursive
+ font-family: sans-serif; cursive;
  font-size:2.2em;
   color: #33536b;
   text-align: center;
 }
 section#content h3 {
-  font-family: sans-serif; cursive
+  font-family: sans-serif; cursive;
   font-size:2.2em;
    color: black;
    text-align: center;
@@ -169,6 +169,7 @@ Section#columns .container h2{
 }
 #columns article.info{
    color: white;
+   border: 1px solid black;
   padding:10px 10px 10px 10px;
   margin:5px;
   border-radius:25px;
